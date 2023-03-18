@@ -1,5 +1,4 @@
 # BOJ - 11399 ATM
-
 import sys
 input = sys.stdin.readline
 
