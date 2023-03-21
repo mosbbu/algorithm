@@ -10,3 +10,4 @@ else:
         for tok in lst:
             print(tok, end="")
     
+print(1)
