@@ -13,8 +13,8 @@ def dfs(queen, n, row):
 
             if abs(queen[x] - queen[row]) == (row - x):
                 break
-            else:
-                count += dfs(queen, n, row+1)
+        else:
+            count += dfs(queen, n, row+1)
         
         return count
 
