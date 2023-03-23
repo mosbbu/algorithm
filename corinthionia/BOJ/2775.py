@@ -18,8 +18,3 @@ for _ in range(T):
         dp.append(row)
     
     print(dp[k][n])
-
-        
-
-
-
