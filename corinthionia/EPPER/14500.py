@@ -7,6 +7,7 @@ n, m = map(int, input().split())
 
 graph = [list(map(int, input().split())) for _ in range(n)]
 visited = [[False] * m for _ in range(n)]
+
 max_val = max(map(max, graph))
 
 d = [(-1, 0), (1, 0), (0, -1), (0, 1)]
