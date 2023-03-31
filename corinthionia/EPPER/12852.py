@@ -22,4 +22,4 @@ for i in range(2, n+1):
         dp[i][1] = dp[i//2][1] + [i]
 
 print(dp[n][0])
-print(*reversed(dp[n][1])) 
+print(*reversed(dp[n][1]))
